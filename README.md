@@ -338,7 +338,7 @@ def game_by_id(id):
         "platform": game.platform,
         "price": game.price,
     }
-
+    
     response = make_response(
         game_dict,
         200
